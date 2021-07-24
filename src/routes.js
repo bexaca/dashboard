@@ -12,7 +12,7 @@ import Settings from 'src/pages/Settings';
 
 const routes = [
   {
-    path: 'app',
+    path: 'dashboard/app',
     element: <DashboardLayout />,
     children: [
       { path: 'account', element: <Account /> },
@@ -24,13 +24,13 @@ const routes = [
     ]
   },
   {
-    path: '/',
+    path: 'dashboard',
     element: <MainLayout />,
     children: [
       { path: 'login', element: <Login /> },
       { path: 'register', element: <Register /> },
       { path: '404', element: <NotFound /> },
-      { path: '/', element: <Navigate to="/app/dashboard" /> },
+      { path: '/', element: <Navigate to="/dashboard/app/dashboard" /> },
       { path: '*', element: <Navigate to="/404" /> }
     ]
   }

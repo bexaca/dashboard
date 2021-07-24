@@ -1,5 +1,5 @@
-import { Link as RouterLink } from 'react-router-dom';
 import { AppBar, Toolbar } from '@material-ui/core';
+import { Link as RouterLink } from 'react-router-dom';
 import Logo from './Logo';
 
 const MainNavbar = (props) => (
@@ -8,7 +8,7 @@ const MainNavbar = (props) => (
     {...props}
   >
     <Toolbar sx={{ height: 64 }}>
-      <RouterLink to="/">
+      <RouterLink to="/dashboard">
         <Logo />
       </RouterLink>
     </Toolbar>

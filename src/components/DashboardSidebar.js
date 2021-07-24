@@ -26,27 +26,27 @@ const user = {
 
 const items = [
   {
-    href: '/app/dashboard',
+    href: '/dashboard/app/dashboard',
     icon: BarChartIcon,
     title: 'Dashboard'
   },
   {
-    href: '/app/customers',
+    href: '/dashboard/app/customers',
     icon: UsersIcon,
     title: 'Customers'
   },
   //   {
-  //     href: '/app/products',
+  //     href: '/dashboard/app/products',
   //     icon: ShoppingBagIcon,
   //     title: 'Products'
   //   },
   {
-    href: '/app/account',
+    href: '/dashboard/app/account',
     icon: UserIcon,
     title: 'Account'
   },
   {
-    href: '/app/settings',
+    href: '/dashboard/app/settings',
     icon: SettingsIcon,
     title: 'Settings'
   },
@@ -61,7 +61,7 @@ const items = [
   //     title: 'Register'
   //   },
   {
-    href: '/404',
+    href: '/dashboard/404',
     icon: AlertCircleIcon,
     title: 'Error'
   }
